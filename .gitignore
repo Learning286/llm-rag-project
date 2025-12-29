@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# ML / Data
+data/
+mlruns/
+faiss_index/
+*.pkl
+*.pt
+*.bin
+
+# Docker
+*.tar
+docker/*.tar
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
